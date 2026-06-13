@@ -39,6 +39,7 @@ The wiring setup is functional, but not organized. The ribbon cable is not folde
 
 ### Callibration
 
+The chosen edge threshold is 200 and for good reason. It is arrived at by repeated testing on the arena surface. It is important to note every other surface has a different threshold value. This means one threshold value cannot be used for another threshold value. The only way to reach a reliable threshold value is through multiple tests. Each sample starts with putting the robot on the arena surface and allowing the robot to detect the edge. If the initial threshold is too high, the robot will drive off the edge. If the threshold is too low, the robot will turn away from nothing. This process is repeated again and again until the robot consistently detects the edge at the right moment. The value of 200 is suitable for the arena surface, allowing the robot to produce edge detection almost every time. 
 
 ## Code
 ### Project structure
