@@ -34,6 +34,8 @@ The wiring setup is functional, but not organized. The ribbon cable is not folde
 
 ![Motors are working, button not installed, photoresistor not installed, LED not installed](Images/FChassis.jpg)
 
+![Wires are assembled to prevent short circuits, could use work on cable management](Images/Wiring2.jpg)
+
 ![Wires are assembled to prevent short circuits, could use work on cable management](Images/Wiring3.jpg)
 ### Decisions made during the build
 1. Short circuit risk
