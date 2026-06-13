@@ -15,3 +15,31 @@ The robot should turn away from the edges of the arena, otherwise drive forward/
 
 ### Circuit design
 ![Alt text here](Images/Circuit.png)
+
+### Physical Layout
+Add image for adrian here
+
+## Build
+
+### Chassis
+### Wiring
+### Decisions made during the build
+### Callibration
+## Code
+### Project structure
+### [Name this section after the algorithm, e.g. Edge Detection]
+
+### [Name this section after the next key algorithm, e.g. Main Loop]
+
+### GPIO Cleanup
+
+## Competition & Reflection
+
+### Results
+
+### What worked
+
+### What failed
+
+### Next iteration
+
