@@ -36,7 +36,15 @@ Add image for adrian here
 ## Competition & Reflection
 
 ### Results
-
+| Round | Placement | Bonus points | Total |
+| --- | --- | --- | --- |
+| Round 1 | 1st | 0 | 3 |
+| Round 2 | 4th | 0 | 0 |
+| Round 3 | 2nd | 0 | 2 |
+| Round 4 | 4th | 0 | 0 |
+| Round 5 | 1st | 2 | 5 |
+| Round 6 | 3rd | 0 | 1 |
+| Total   | 5th | 2 | 11|
 ### What worked
 
 ### What failed
