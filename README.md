@@ -11,6 +11,7 @@ The robot should turn away from the edges of the arena, otherwise drive forward/
 | Make sure everything works correctly and according to the plan. | Test every single movement state separately.  | Must stay in the arena for 1+ min  |
 
 ### System architechture
+![Alt text here](Images/design.png)
 
-
-
+### Circuit design
+![Alt text here](Images/Circuit.png)
