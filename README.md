@@ -17,14 +17,26 @@ The robot should turn away from the edges of the arena, otherwise drive forward/
 ![Alt text here](Images/Circuit.png)
 
 ### Physical Layout
+![Alt text here](Images/Circuit.png)
+
 Add image for adrian here
 
 ## Build
 The build is inspired by the design of a speed bump. The idea of a speed bump is to slow other cars down from going too fast or else they will feel an big impact. Similarily, our robot comes from below to push other opposing robots out of the arena.  We wanted this design to be much more than the guided build. The guided build was a good baseline, but not nearly enough to reach our goal. More importantly, we wanted to challenge ourselves to make something truly unique. This meant going beyond the guided build, and beyond supervision. This would be more challenging than anticipated. There was certainly a big gap between our skils and what we thought we could accomplish. Not that it was impossible, but out of our comfort zone. To build something requires careful and effective planning. Unknowingly, we would pay the price for this mistake. Every new step foward introduced/revealed more flaws. When we realized it was already too late. The final build is more of an improvision, caused by our countless mistakes. It is not the true final build. 
 ### Chassis
 The chassis is the first part that was constructed. The chassis dictated how the entire build would go, so it was a crucial point during production. In contrast to the guided build, our build was a little different. Every component needed it's own layer. A tight build is clumpured and looks messy. The goal was to have a large base, while also being low to the ground. As for the materials, the base is made up of a 3d printed layer, and the ramps are made out of cardboard. The chassis took the longest amount of time to build, due to how easy it is to mess up. Everything fit perfectly on the base of the chassis. Every component was locked in place without the risk of falling out. 
+
+![Alt text here](Images/Chassis.jpg)
+
+![Alt text here](Images/Studiochassis.png)
+
+![Alt text here](Images/Completed.jpg)
 ### Wiring
 The wiring setup is functional, but not organized. The ribbon cable is not folded properly, and cable management is subpar. On the positive side, the routing logic works fantastic. The robot executes the code without any problems. Wires are not at risk of getting caught on moving parts. The cables themselves are not at risk of disconnecting. The button is located on the other side of breadboard, allowing for easy access. Some improvements include folding the ribbon cable and trimming any excess wire length to fix floating wires. This would not require rerouting, just cleaning up the wires. 
+
+![Alt text here](Images/Wiring3.jpg)
+
+![Alt text here](Images/FChassis.jpg)
 ### Decisions made during the build
 1. Short circuit risk
    
@@ -61,6 +73,8 @@ The chosen edge threshold is 200 and for good reason. It is arrived at by repeat
 | Round 5 | 1st | 2 | 5 |
 | Round 6 | 3rd | 0 | 1 |
 | Total   | 5th | 2 | 11|
+
+![Final round, robot backing up](Images/Vidrobot.png)
 ### What worked
 On competition day, multiple aspects of the build really came through. Firstly, The code worked surprisingly well. At first glance, the code does not look too complex and appears to be more simplistic. There were doubts about whether the robot could even keep up with the other robots with larger size and special sensors. However, this also allowed our robot to perform it's movements consistently. During the competition, the majority of the competitors' robots either malfunctioned or got disqualified, while our robot could perform the same way in every single match. Additionally, the robot could adapt aswell. It was quite easy to change the code between matches in order to adapt to the other robots. As for the hardware, it worked good too. The wider base, allowed for our robot to potentially push any smaller robots out of the arena. This proved helpful in a lot of situation on competition day. Overall, I would not change anything about the build, except for minor hardware improvements. Everything worked as expected. 
 ### What failed
