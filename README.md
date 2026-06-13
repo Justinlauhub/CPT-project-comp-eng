@@ -55,13 +55,16 @@ The chosen edge threshold is 200 and for good reason. It is arrived at by repeat
 ### Project structure
 ### [Edge detection]
 ![add text here](Images/SnippetEdge.png)
+
 The light sensor detects how dark the ground under it, and if those readings are greater than a preset amount the wheels will go backwards for 0.5 seconds, than both wheels will go in different directions for 1.9 seconds
 ### [Main loop]
 ![Add text here](Images/SnippetML.png)
+
 The light sensor detects how dark the ground under it, and if those readings are greater than a preset amount the wheels will go backwards for 0.5 seconds, then both wheels will go in different directions for 1.9 seconds. If the readings are below the threshold the wheels will go forward. The machine will only start if the button is pressed
 
 ### GPIO Cleanup
 ![Add text here](Images/GPIOCU.png)
+
 The finally block always happens while the keyboardinterrupt only activates when the ctrl C is pressed. When the finally is activated it slows down the wheels, stops the wheels and GPIO.cleanup resets all the pins.
 
 ## Competition & Reflection
