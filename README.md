@@ -17,9 +17,9 @@ The robot should turn away from the edges of the arena, otherwise drive forward/
 ![Alt text here](Images/Circuit.png)
 
 ### Physical Layout
-![Alt text here](Images/Circuit.png)
-
-Add image for adrian here
+![Long rectangle: Breadboard
+Square: Battery pack
+Two mini rectangle: Motors](Images/Studiochassis.png)
 
 ## Build
 The build is inspired by the design of a speed bump. The idea of a speed bump is to slow other cars down from going too fast or else they will feel an big impact. Similarily, our robot comes from below to push other opposing robots out of the arena.  We wanted this design to be much more than the guided build. The guided build was a good baseline, but not nearly enough to reach our goal. More importantly, we wanted to challenge ourselves to make something truly unique. This meant going beyond the guided build, and beyond supervision. This would be more challenging than anticipated. There was certainly a big gap between our skils and what we thought we could accomplish. Not that it was impossible, but out of our comfort zone. To build something requires careful and effective planning. Unknowingly, we would pay the price for this mistake. Every new step foward introduced/revealed more flaws. When we realized it was already too late. The final build is more of an improvision, caused by our countless mistakes. It is not the true final build. 
@@ -27,8 +27,6 @@ The build is inspired by the design of a speed bump. The idea of a speed bump is
 The chassis is the first part that was constructed. The chassis dictated how the entire build would go, so it was a crucial point during production. In contrast to the guided build, our build was a little different. Every component needed it's own layer. A tight build is clumpured and looks messy. The goal was to have a large base, while also being low to the ground. As for the materials, the base is made up of a 3d printed layer, and the ramps are made out of cardboard. The chassis took the longest amount of time to build, due to how easy it is to mess up. Everything fit perfectly on the base of the chassis. Every component was locked in place without the risk of falling out. 
 
 ![Chassis without wiring or components](Images/Chassis.jpg)
-
-![design in production](Images/Studiochassis.png)
 
 ![Full chassis with all parts](Images/Completed.jpg)
 ### Wiring
@@ -55,11 +53,16 @@ The chosen edge threshold is 200 and for good reason. It is arrived at by repeat
 
 ## Code
 ### Project structure
-### [Name this section after the algorithm, e.g. Edge Detection]
-
-### [Name this section after the next key algorithm, e.g. Main Loop]
+### [Edge detection]
+![add text here](Images/SnippetEdge.png)
+The light sensor detects how dark the ground under it, and if those readings are greater than a preset amount the wheels will go backwards for 0.5 seconds, than both wheels will go in different directions for 1.9 seconds
+### [Main loop]
+![Add text here](Images/SnippetML.png)
+The light sensor detects how dark the ground under it, and if those readings are greater than a preset amount the wheels will go backwards for 0.5 seconds, then both wheels will go in different directions for 1.9 seconds. If the readings are below the threshold the wheels will go forward. The machine will only start if the button is pressed
 
 ### GPIO Cleanup
+![Add text here](Images/GPIOCU.png)
+The finally block always happens while the keyboardinterrupt only activates when the ctrl C is pressed. When the finally is activated it slows down the wheels, stops the wheels and GPIO.cleanup resets all the pins.
 
 ## Competition & Reflection
 
