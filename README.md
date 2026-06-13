@@ -8,6 +8,9 @@ The robot should turn away from the edges of the arena, otherwise drive forward/
 | Requirement | How you tested it | PAss condition |
 | :--- | :---: | ---: |
 | Must be able to distinguish between black and white | By putting the bot in the arena | Changes phases when robot touches the black line consistently |
-| make sure everything works correctly and according to the plan. | Test every single movement state separately.  | Must stay in the arena for 1+ min  |
+| Make sure everything works correctly and according to the plan. | Test every single movement state separately.  | Must stay in the arena for 1+ min  |
+
+### System architechture
+
 
 
