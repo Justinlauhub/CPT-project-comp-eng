@@ -26,17 +26,17 @@ The build is inspired by the design of a speed bump. The idea of a speed bump is
 ### Chassis
 The chassis is the first part that was constructed. The chassis dictated how the entire build would go, so it was a crucial point during production. In contrast to the guided build, our build was a little different. Every component needed it's own layer. A tight build is clumpured and looks messy. The goal was to have a large base, while also being low to the ground. As for the materials, the base is made up of a 3d printed layer, and the ramps are made out of cardboard. The chassis took the longest amount of time to build, due to how easy it is to mess up. Everything fit perfectly on the base of the chassis. Every component was locked in place without the risk of falling out. 
 
-![Alt text here](Images/Chassis.jpg)
+![Chassis without wiring or components](Images/Chassis.jpg)
 
-![Alt text here](Images/Studiochassis.png)
+![design in production](Images/Studiochassis.png)
 
-![Alt text here](Images/Completed.jpg)
+![Full chassis with all parts](Images/Completed.jpg)
 ### Wiring
 The wiring setup is functional, but not organized. The ribbon cable is not folded properly, and cable management is subpar. On the positive side, the routing logic works fantastic. The robot executes the code without any problems. Wires are not at risk of getting caught on moving parts. The cables themselves are not at risk of disconnecting. The button is located on the other side of breadboard, allowing for easy access. Some improvements include folding the ribbon cable and trimming any excess wire length to fix floating wires. This would not require rerouting, just cleaning up the wires. 
 
-![Alt text here](Images/Wiring3.jpg)
+![Motors are working, button not installed, photoresistor not installed, LED not installed](Images/FChassis.jpg)
 
-![Alt text here](Images/FChassis.jpg)
+![Wires are assembled to prevent short circuits, could use work on cable management](Images/Wiring3.jpg)
 ### Decisions made during the build
 1. Short circuit risk
    
