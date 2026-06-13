@@ -24,6 +24,7 @@ Add image for adrian here
 ### Chassis
 ### Wiring
 ### Decisions made during the build
+Tired inside rather than outside
 ### Callibration
 ## Code
 ### Project structure
@@ -46,7 +47,7 @@ Add image for adrian here
 | Round 6 | 3rd | 0 | 1 |
 | Total   | 5th | 2 | 11|
 ### What worked
-
+On competition day, multiple aspects of the build really came through. Firstly, The code worked surprisingly well. At first glance, the code does not look too complex and appears to be more simplistic. There were doubts about whether the robot could even keep up with the other robots with larger size and special sensors. However, this also allowed our robot to perform it's movements consistently. During the competition, the majority of the competitors' robots either malfunctioned or got disqualified, while our robot could perform the same way in every single match. Additionally, the robot could adapt aswell. The code was easily able to be changed throughout the matches to adapt to the other robots. As for the hardware, it worked good too. The wider base allowed the robot to stand it's ground against it's opposing robots
 ### What failed
 
 ### Next iteration
