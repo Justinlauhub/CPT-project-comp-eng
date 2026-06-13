@@ -27,10 +27,16 @@ The chassis is the first part that was constructed. The chassis dictated how the
 The wiring setup is functional, but not organized. The ribbon cable is not folded properly, and cable management is subpar. On the positive side, the routing logic works fantastic. The robot executes the code without any problems. Wires are not at risk of getting caught on moving parts. The cables themselves are not at risk of disconnecting. The button is located on the other side of breadboard, allowing for easy access. Some improvements include folding the ribbon cable and trimming any excess wire length to fix floating wires. This would not require rerouting, just cleaning up the wires. 
 ### Decisions made during the build
 1. Short circuit risk
-During testing, the robot kept disconnecting and sensor values seemed off. Wiring seemed to be the issue. The metal from two wires would touch, creating a risk of a short circuit. It seemed like a minor detail at first when the robot started moving, but revealed itself to be an even bigger issue than expected. After testing, the wires are rerouted in a way to ensure no short circuits happen. This problem only becomes evident when the robot starts moving. It is not a problem you can see just by looking at the wires.
+   
+  During testing, the robot kept disconnecting and sensor values seemed off. Wiring seemed to be the issue. The metal from    two wires would touch, creating a risk of a short circuit. It seemed like a minor detail at first when the robot started    moving, but revealed itself to be an even bigger issue than expected. After testing, the wires are rerouted in a way to     ensure no short circuits happen. This problem only becomes evident when the robot starts moving. It is not a problem you    can see just by looking at the wires.
+
+
 2. Turning behavior
-A robot cannot just turn wherever it wants in any direction. Each turn is a calculated movement to sustain for longer. Turns are simple without any external factors. The arena introduced many new factors that we just did not account for. So,  when testing the robot, it either turned too little or too much. After the turning amount was adjusted, the robot could keep moving within the boundaries of the arena for much longer. The actual behavior on the floor is much more complicated than expected. Proper testing revealed minor tweaks in the code that would not have been discovered otherwise. 
-Tired inside rather than outside
+
+  A robot cannot just turn wherever it wants in any direction. Each turn is a calculated movement to sustain for longer.     Turns are simple without any external factors. The arena introduced many new factors that we just did not account for. So,  when testing the robot, it either turned too little or too much. After the turning amount was adjusted, the robot could     keep moving within the boundaries of the arena for much longer. The actual behavior on the floor is much more complicated   than expected. Proper testing revealed minor tweaks in the code that would not have been discovered otherwise. 
+
+   
+
 ### Callibration
 
 
