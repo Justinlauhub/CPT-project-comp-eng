@@ -20,12 +20,14 @@ The robot should turn away from the edges of the arena, otherwise drive forward/
 Add image for adrian here
 
 ## Build
-
+The build is inspired by the design of a speed bump. The idea of a speed bump is to slow other cars down from going too fast or else they will feel an big impact. Similarily, our robot comes from below to push other opposing robots out of the arena. This would be more challenging than anticipated.
 ### Chassis
 ### Wiring
 ### Decisions made during the build
 Tired inside rather than outside
 ### Callibration
+
+
 ## Code
 ### Project structure
 ### [Name this section after the algorithm, e.g. Edge Detection]
