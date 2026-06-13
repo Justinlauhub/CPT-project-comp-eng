@@ -20,7 +20,7 @@ The robot should turn away from the edges of the arena, otherwise drive forward/
 Add image for adrian here
 
 ## Build
-The build is inspired by the design of a speed bump. The idea of a speed bump is to slow other cars down from going too fast or else they will feel an big impact. Similarily, our robot comes from below to push other opposing robots out of the arena. This would be more challenging than anticipated.
+The build is inspired by the design of a speed bump. The idea of a speed bump is to slow other cars down from going too fast or else they will feel an big impact. Similarily, our robot comes from below to push other opposing robots out of the arena.  We wanted this design to be much more than the guided build. The guided build was a good baseline, but not nearly enough to reach our goal. More importantly, we wanted to challenge ourselves to make something truly unique. This meant going beyond the guided build, and beyond supervision. This would be more challenging than anticipated. There was certainly a big gap between our skils and what we thought we could accomplish. Not that it was impossible, but out of our comfort zone. To build something requires careful and effective planning. Unknowingly, we would pay the price for this mistake. Every new step foward introduced/revealed more flaws. When we realized it was already too late. The final build is more of an improvision, caused by our countless mistakes. It is not the true final build. 
 ### Chassis
 ### Wiring
 ### Decisions made during the build
